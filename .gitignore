@@ -1,0 +1,35 @@
+# Dependencies and virtual environments
+node_modules/
+venv/
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build output and caches
+dist/
+build/
+.vite/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/known_hosts
+backend/know_hosts
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
